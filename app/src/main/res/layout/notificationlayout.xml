@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/nSwitchLight"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/white_bulb"/>
+
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/nSwitchWifi"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/nSwitchLight"
+        android:src="@drawable/white_wifi" />
+
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/nSwitchNetwork"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/nSwitchWifi"
+        android:src="@drawable/import_export_white" />
+
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/nSwitchBrightness"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/nSwitchNetwork"
+        android:src="@drawable/brightness_high" />
+</RelativeLayout>
